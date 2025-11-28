@@ -98,7 +98,7 @@ CUDA_VISIBLE_DEVICES=<DEVICE_ID> python main.py  \
 For all training tasks, the different hyperparameter settings due to different datasets can be found in the main text and supplementary materials.
 
 
-### Acknowledgements
+## Acknowledgements
 We gratefully acknowledge excellent prior studies including [CLIP-LIT](https://github.com/ZhexinLiang/CLIP-LIT), [DPI](https://github.com/DianaNerualNetwork/StainPromptInversion), and [Cycle-GAN](https://github.com/junyanz/CycleGAN). Our work builds directly upon the foundations laid by these researches.
 
 
