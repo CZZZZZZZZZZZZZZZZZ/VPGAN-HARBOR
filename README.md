@@ -1,5 +1,5 @@
 # VLM-based Prompts as the Optimal Assistant for Unpaired Histopathology Virtual Staining (ACMMM 2025)
-The PyTorch implementation of VLM-based Prompts Generative Adversarial Network (VPGAN) and Histopathology stAining expeRt Based variOus pRompts (HARBOR), as described in the paper "VLM-based Prompts as the Optimal Assistant for Unpaired Histopathology Virtual Staining." [ACM DL]((https://dl.acm.org/doi/abs/10.1145/3746027.3755105))
+The PyTorch implementation of VLM-based Prompts Generative Adversarial Network (VPGAN) and Histopathology stAining expeRt Based variOus pRompts (HARBOR), as described in the paper "VLM-based Prompts as the Optimal Assistant for Unpaired Histopathology Virtual Staining." [ACM-DL]((https://dl.acm.org/doi/abs/10.1145/3746027.3755105))
 
 <img src="p1.png" width="1500px" align="center" />
 
@@ -47,10 +47,10 @@ You can obtain the model weights from relevant VLM works, such as [CONCH](https:
 ### Prompt generation
 
 #### Contrastive Prompt
-Referring to the binary classification initialization code in [CLIP-LIT](https://github.com/ZhexinLiang/CLIP-LIT), and replacing CLIP with [CONCH](https://github.com/mahmoodlab/CONCH) to obtain the English translation of the prompts.
+Referring to the binary classification initialization code in [CLIP-LIT](https://github.com/ZhexinLiang/CLIP-LIT), and replacing CLIP with [CONCH](https://github.com/mahmoodlab/CONCH) to obtain the prompts.
 
 #### Concept anchor
-Given the rapid progress of large language models (LLMs), we recommend using the latest models such as Gemini 3 Pro and GPT-5.1. They show significant improvements in pathology and deliver idiomatic academic English translations.
+Given the rapid progress of large language models (LLMs), we recommend using the latest models such as Gemini 3 Pro and GPT-5.1. They show significant improvements in pathology.
 
 ### VPGAN train
 You need to place all the `.pt` files of text prompts embeddings generated previously in the subfolder `text` of the `VPGAN` folder in the following style.
