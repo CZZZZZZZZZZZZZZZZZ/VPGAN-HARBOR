@@ -1,5 +1,5 @@
 # VLM-based Prompts as the Optimal Assistant for Unpaired Histopathology Virtual Staining (ACMMM 2025)
-The PyTorch implementation of VLM-based Prompts Generative Adversarial Network (VPGAN) and Histopathology stAining expeRt Based variOus pRompts (HARBOR), as described in the paper "VLM-based Prompts as the Optimal Assistant for Unpaired Histopathology Virtual Staining." [ACM-DL]((https://dl.acm.org/doi/abs/10.1145/3746027.3755105))
+The PyTorch implementation of VLM-based Prompts Generative Adversarial Network (VPGAN) and Histopathology stAining expeRt Based variOus pRompts (HARBOR), as described in the paper "VLM-based Prompts as the Optimal Assistant for Unpaired Histopathology Virtual Staining."
 
 <img src="p1.png" width="1500px" align="center" />
 
